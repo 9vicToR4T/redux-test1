@@ -1,0 +1,36 @@
+.Counter{
+    width: 100%;
+    height: 100vh;
+    background: tomato;
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+.wrapp{
+    width: 500px;
+    text-align: center;
+    display: block;
+    margin: 50px auto 50px;
+      
+}
+.wrapp button{
+    margin: 20px;
+    padding: 5px;
+    background-color: aqua;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+.wrapp button:hover{
+    background-color: azure;
+    border: none;
+}
+.wrapp span{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
